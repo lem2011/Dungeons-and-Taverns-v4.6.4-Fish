@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 13565951,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:haste",
+                      "duration": 10800,
+                      "amplifier": 1
+                    }
+                  ],
+                  "custom_name": "dnt_haste"
+                }
+              }
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}
