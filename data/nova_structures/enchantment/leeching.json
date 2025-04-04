@@ -23,6 +23,7 @@
             "per_level_above_first": 1
           }
         },
+        "enchanted": "attacker",
         "affected": "attacker"
       }
     ]
