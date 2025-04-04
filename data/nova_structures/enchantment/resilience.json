@@ -23,7 +23,8 @@
             "per_level_above_first": 1
           }
         },
-        "affected": "enchanted"
+        "enchanted": "victim",
+        "affected": "victim"
       }
     ]
   },
@@ -37,8 +38,8 @@
     "per_level_above_first": 10
   },
   "slots": [
-    "chestplate"
+    "armor"
   ],
-  "supported_items": "#minecraft:enchantable/chestplate",
+  "supported_items": "#minecraft:enchantable/chest_armor",
   "weight": 20
 }
